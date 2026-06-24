@@ -19,4 +19,4 @@ spec:
       - name: c1
         image: nginxdemos/hello
       - name: c2
-        image: kiran2275/demo-nginx
+        image: kiran2275/demo-nginx:4
