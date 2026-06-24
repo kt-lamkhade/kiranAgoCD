@@ -16,11 +16,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: c1
-        image: nginxdemos/hello
-        ports:
-        - containerPort: 80
       - name: c2
         image: kiran2275/demo-nginx:4
         ports:
-        - containerPort: 8080
+        - containerPort: 80
